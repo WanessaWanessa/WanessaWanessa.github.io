@@ -1,0 +1,48 @@
+h1 {
+	/* Style for "Web & Grap" */
+/* min-width: 850px;
+ */
+color: #ffffff;
+font-family: Roboto;
+/* font-size: 60px;
+font-weight: 700; */
+/* // line-height: 24px; */
+text-transform: uppercase;
+display: inline-block;
+text-align: center;
+margin: 0 auto;
+border-top: 2px solid #fff; /* Параметры границы */
+border-bottom: 2px solid #fff; /* Параметры границы */
+padding: 5px; /* Поля вокруг текста */
+}
+
+.font-first-pages{
+background: url("pic/img.png"); /* Добавляем фон */
+background-size: cover; /* Масштабируем фон */
+background-position: 50%;
+text-align: center;
+margin: 0 auto;
+background-repeat: no-repeat;
+/* max-width: 1600px; */
+/* height: 1000px; */
+/* padding: 26% 0; */
+height: 100vh;
+vertical-align: middle;
+}
+
+img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+button {
+min-width: 111px;
+border: 2px solid #fff;
+color: #fff;
+padding: 1%;
+margin-top: 35px;
+text-transform: uppercase;
+background-color:transparent;
+}
+
+

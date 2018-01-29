@@ -1,0 +1,80 @@
+.wrap {
+    height: 100vh;
+    /* max-width: 1600px; */
+}
+
+.footer {
+    background-color: #252e30;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 70px;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+.footer_emblem {
+    float: left;
+}
+
+.footer-logo {
+    max-width: 42px;
+}
+
+.button_container {
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    float: right;
+    min-width: 800px;
+    padding-top: 1%;
+}
+
+.footer_menu_item {
+    display: inline-block;
+    /*  text-align: center; */
+    padding-left: 2%;
+}
+
+a:hover {
+    color: #2ecc71;
+    /* Цвет текста активного пункта */
+}
+
+.fooert-logo-color {
+    color: #2ecc71;
+}
+
+
+/* .footer_emblem div {
+    width: 83px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+ */
+
+.footer_title {
+    font-size: 38px;
+    vertical-align: middle;
+}

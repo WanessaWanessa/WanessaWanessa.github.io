@@ -1,0 +1,113 @@
+.section-footer {
+    background-color: #252e30;
+}
+
+.text-block_footer {
+    width: 45%;
+    float: left;
+}
+
+@media screen and (max-width: 660px) {
+    /* ДОБАВИЛА для адаптива */
+    .text-block_footer {
+        width: 100%;
+        padding: 1%;
+    }
+}
+
+.footer-feedback {
+    width: 45%;
+    float: left;
+    padding-left: 10%;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 660px) {
+    /* ДОБАВИЛА для адаптива */
+    .footer-feedback {
+        width: 100%;
+        padding: 1%;
+    }
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.section-footer h2 {
+    color: #ffffff;
+}
+
+.section-footer_footer {
+    background-color: #191f21;
+}
+
+input,
+textarea {
+    background-color: #4b5456;
+    padding: 1% 0;
+    margin: 1% 0;
+}
+
+.footer-feedback button {
+    background-color: #191f21;
+    padding: 2%;
+    border: none;
+    margin-top: 1%;
+}
+
+
+.footer-feedback button:hover {
+    border-color: 1px solid #2ecc71;
+}
+
+// .footer-end {
+//  margin: 0 auto;
+// }
+.footer-end {
+    text-align: center;
+}
+
+// .footer-end-soc-icon {
+//  padding-top: 3% 0;
+//  margin-top: 2% 0;
+// }
+.footer-end-soc-icon_element {
+    border: 1px solid #4b5456;
+    border-radius: 45%;
+    width: 34px;
+    height: 34px;
+    vertical-align: middle;
+    line-height: 34px;
+    display: inline-block;
+    margin: 0 0.5%;
+}
+
+.footer-end-soc-icon {
+    font-size: 0;
+    padding: 2% 0 0 0;
+}
+
+.footer-end-soc-icon_element_tw {
+    background: rgba(#4b5456, 1) url(../pic/tw.png) 50% 50% no-repeat;
+}
+
+.footer-end-soc-icon_element_f {
+    background: rgba(#4b5456, 1) url(../pic/f.png) 50% 50% no-repeat;
+}
+
+.footer-end-soc-icon_element_p {
+    background: rgba(#4b5456, 1) url(../pic/p.png) 50% 50% no-repeat;
+}
+
+.footer-end-soc-icon_element_q {
+    background: rgba(#4b5456, 1) url(../pic/g.png) 50% 50% no-repeat;
+}
+
+.footer-end-soc-icon_element_b {
+    background: rgba(#4b5456, 1) url(../pic/b.png) 50% 50% no-repeat;
+}
+
+.footer-end-soc-icon_element_lin {
+    background: rgba(#4b5456, 1) url(../pic/lin.png) 50% 50% no-repeat;
+}

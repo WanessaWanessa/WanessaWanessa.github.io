@@ -1,0 +1,126 @@
+.text-block_skills {
+    width: 45%;
+    // padding-top: 5%;
+    float: left;
+}
+
+
+@media screen and (max-width: 660px) {/* ДОБАВИЛА для адаптива */
+    .text-block_skills {
+        width: 100%;
+    }
+}
+
+.text-block_skills button {
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 2%;
+    float: left;
+    min-width: 109px;
+}
+
+progress {
+    background-color: #2ecc71;
+    width: 100%;
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    color: red;
+}
+
+.progress-bg {
+    width: 100%;
+    background-color: #f2f2f1;
+    border-radius: 2px;
+}
+
+.progress-90 {
+    width: 90%;
+    background-color: #2ecc71;
+    z-index: 1;
+    text-align: right;
+    padding: 0.5% 2% 0.5% 0.5%;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.progress-80 {
+    width: 80%;
+    background-color: #2ecc71;
+    z-index: 1;
+    text-align: right;
+    padding: 0.5% 2% 0.5% 0.5%;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.progress-70 {
+    width: 70%;
+    background-color: #2ecc71;
+    z-index: 1;
+    text-align: right;
+    padding: 0.5% 2% 0.5% 0.5%;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+
+
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.skills-progress h3 {
+    padding: 4% 0 2% 0;
+}
+
+.skills-progress {
+    width: 40%;
+    float: left;
+}
+
+
+@media screen and (max-width: 660px) {/* ДОБАВИЛА для адаптива */
+    .skills-progress {
+        width: 100%;
+    }
+}
+
+
+p {
+    color: #919191;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.skills-resume {
+    margin: 0 auto;
+    text-align: center;
+    padding: 2% 2%;
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: relative;
+}
+
+.skills-resume button {
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    min-width: 173px;
+}
+
+.skills-resume_triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 15px solid #f2f2f1;
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    right: 48%;
+    margin-bottom: -15px;
+}

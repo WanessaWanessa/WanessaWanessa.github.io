@@ -1,0 +1,72 @@
+.education {
+    width: 44%;
+    float: left;
+}
+
+@media screen and (max-width: 660px) {/* ДОБАВИЛА для адаптива */
+    .education {
+        width: 100%;
+        padding-bottom: 5%
+    }
+}
+
+.education1 {
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.education-oll {
+    // width: 44%;
+    // float: left;
+}
+
+.education-content {
+    padding-left: 2%;
+    padding-bottom: 3%;
+    // float: right;
+}
+
+.education-content_item {
+    border-top: 1px solid #cccccc;
+    padding-top: 2%;
+}
+
+.education-content-rating {
+    width: 51px;
+    padding: 1%;
+    background-color: #2ecc71;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    margin: 3% 0;
+}
+
+.js-slider button {
+    border-radius: 50%;
+    border: 1px solid #2ecc71;
+    width: 10px;
+    height: 10px;
+    // background-color: #2ecc71;
+    font-size: 0;
+    padding: 0;
+    min-width: 0;
+    padding-top: 0;
+
+    
+}
+
+.js-slider li {
+    display: inline-block;
+    margin: 1%;
+
+}
+
+.js-slider ul {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+.js-slider button:hover {
+  background-color: #2ecc71;
+}
